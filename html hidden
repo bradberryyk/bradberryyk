@@ -1,0 +1,11 @@
+html hidden
+<p>I'm not fancy.</p>
+
+<p class="fancy">But I am!</p>
+```
+
+#### CSS
+
+```css
+p.fancy {
+  color: red
