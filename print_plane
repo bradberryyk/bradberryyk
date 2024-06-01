@@ -1,0 +1,12 @@
+ 
+void print_plane(int x, int y) //打印飞机
+{
+    if (x == 0)
+    {
+        gotoxy(x, y);
+        printf("*");
+        gotoxy(x, y + 1);
+        printf("***");
+        gotoxy(x, y + 2);
+        printf(" *");
+    }
