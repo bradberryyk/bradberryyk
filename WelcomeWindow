@@ -1,0 +1,9 @@
+int main(int argc, char *argv[])
+{
+  QApplication app(argc, argv);
+  //...
+  WelcomeWindow *welcome=new WelcomeWindow();
+  MainWindow w(welcome);
+ 
+  return app.exec();
+}
